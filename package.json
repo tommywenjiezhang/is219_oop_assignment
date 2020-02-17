@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "coveralls": "^3.0.9",
     "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "travis-ci": "^2.2.0"
   }
 }
