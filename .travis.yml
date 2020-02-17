@@ -9,6 +9,8 @@ cache:
     - node_modules
 before_install:
   - npm update
+before_script:
+  - chmod 0777 ./node_modules/.bin/jest
 install:
   - npm install
 script:
