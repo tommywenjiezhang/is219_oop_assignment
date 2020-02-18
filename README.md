@@ -148,8 +148,8 @@ class Triangle extends Shape {
 function calculateDiffShape(shapes) {
     return shapes.reduce((sum, shape) => {
         if (shape instanceof Shape) {
-            console.log(`Shape: ${shape.toString()} - area: ${shape.area()}`);
-            return sum + shape.area()
+            console.log(`Shape: ${shape.toString()} - area: ${shape.calculateArea()}`);
+            return sum + shape.calculateArea()
         }
         throw Error('Bad argument shape.');
     }, 0);
