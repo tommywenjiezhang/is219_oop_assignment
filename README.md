@@ -36,7 +36,7 @@ class Car{
 
 
 
-<h2>Abstraction<h2>
+<h2>Abstraction</h2>
 <p>Abstraction is similar to Encapsulation. Abstraction hides the complexity from the outside. For example, you can accelerate the car by stepping on gas and deceleration car by stepping on brake. However, you might now know the exact mechanism of acceleration and deceleration. Hence, the complexity is hidden under the hoods. The code below demonstrates the use of abstraction in programming.
 </p>
 
