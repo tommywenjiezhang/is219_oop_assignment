@@ -4,10 +4,10 @@ const Car = require('../Car');
 describe('car class initialization', ()=>{
     test('car class initialization', ()=>{
         const nissan_rogue = new Car('Rogue',4,'nissan',170,3464)
-        expect(nissan_rogue.model()).toBe('Rogue');
-        expect(nissan_rogue.speed()).toBe(0)
-        expect(nissan_rogue.numberOfWheels()).toBe(4);
-        expect(nissan_rogue.brand()).toBe('nissan');
+        expect(nissan_rogue.model).toBe('Rogue');
+        expect(nissan_rogue.speed).toBe(0)
+        expect(nissan_rogue.numberOfWheels).toBe(4);
+        expect(nissan_rogue.brand).toBe('nissan');
     })
 })
 
