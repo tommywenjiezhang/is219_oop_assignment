@@ -16,6 +16,10 @@ class Car{
         return this._model;
     }
 
+    set model(name){
+        this._model = name
+    }
+    
     get numberOfWheels() {
         return this._numberOfWheels;
     }

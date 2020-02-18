@@ -31,3 +31,12 @@ describe('car deccleration test', () =>{
         expect(ferrati_gt_california.decclerate(1)).toBe(testSpeed)
     })
 })
+
+
+describe('car setter test',()=>{
+    test('car setter test', () => {
+        const ferrati_gt_california = new Car('GT California', 4, 'Ferrati', 483, 2300)
+        ferrati_gt_california.model = "gt"
+        expect(ferrati_gt_california.model).toBe('gt')
+    })
+})
